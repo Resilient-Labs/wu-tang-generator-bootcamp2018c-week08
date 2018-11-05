@@ -2,17 +2,22 @@
 
 ### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-### How to submit your code for review:
+![alt tag](http://placecorgi.com/1200/650)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript,
+
+youll see some code that has been commented out that was my original approach to this project i wanted to be able to have the questions asked then based upon the answers you would get a specific name, i hit a wall and then tried a different approaxh that i felt worked for the time being while i worked on getting the original plan working,
+
+## Optimizations
+*(optional)*
+
+i would hvae simplified the codes given more time
+
+## Lessons Learned:
+
+I learned the importance of psudo code and how it will help you iron out your code
 
 Example:
 ```
