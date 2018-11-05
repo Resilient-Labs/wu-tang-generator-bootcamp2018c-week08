@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.startQuiz {
+  display: block;
+  background: #fff;
+  color: #333;
+  border: 1px solid #333;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+}
+
+.startQuiz:active,
+.submit:active {
+  background: #fff;
+  -webkit-box-shadow: inset 0px 0px 5px #333;
+     -moz-box-shadow: inset 0px 0px 5px #333;
+          box-shadow: inset 0px 0px 5px #333;
+   outline: none;
+}
+
+.submit {
+  visibility: hidden;
+  background: #fff;
+  color: #333;
+  border: 1px solid #333;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+}
+
+.startQuiz:hover,
+.submit:hover {
+  /* background: #333;
+  color: #fff; */
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px #333 
+}
+
+.startQuiz:focus
+.submit:focus {
+  outline: 1px solid #777;
+}
+
+.excuse {
+  font-size: 30px;
+
+}
+
+/* The knockout text */
+.text {
+  transition: text-indent .8s;
+}
+
+/* On hover, trigger the transition */
+.text:hover {
+  text-indent: 5px;
+  transition: text-indent .8s;
+} 
+
+/* The thing that slides in on hover */
+.text:hover::after {
+  display: inline-block;
+  content: ' Excuse Generator';
+}
+
+.hidden {
+  visibility: hidden;
+  background: #fff;
+  color: #333;
+  border: 1px solid #333;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+}
+
