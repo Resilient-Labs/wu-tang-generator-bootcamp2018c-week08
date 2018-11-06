@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ECM Wutang Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section>
+      <header>
+        <h1>TECH WUTANG NAME GENERATOR</h1>
+      </header>
+      <form>
+        <fieldset>
+          <legend>Pick a Language</legend>
+          <section>
+            <input type="radio" id="r1" name="r" value="javascript">
+            <label for="r1"><span></span><p>Javascript</p></label>
+          </section>
+          <section>
+            <input type="radio" id="r2" name="r" value="python">
+            <label for="r2"><span></span><p>Python</p></label>
+          </section>
+          <section>
+            <input type="radio" id="r3" name="r" value="c++">
+            <label for="r3"><span></span><p>C++</p></label>
+          </section>
+          <section>
+            <input type="radio" id="r4" name="r" value="java">
+            <label for="r4"><span></span><p>Java</p></label>
+          </section>
+        </fieldset>
+
+        <fieldset>
+          <legend>Choose a Preference</legend>
+          <section>
+            <input type="radio" id="front" name="pref" value="front">
+            <label for="front"><span></span><p>Front-end</p></label>
+          </section>
+          <section>
+            <input type="radio" id="back" name="pref" value="back">
+            <label for="back"><span></span><p>Back-end</p></label>
+          </section>
+        </fieldset>
+
+        <fieldset>
+          <legend>Mobile or Desktop?</legend>
+          <section>
+            <input type="radio" id="mobile" name="tt" value="mobile">
+            <label for="r1"><span></span><p>Mobile</p></label>
+          </section>
+          <section>
+            <input type="radio" id="desk" name="tt" value="desktop">
+            <label for="r2"><span></span><p>Desktop</p></label>
+          </section>
+        </fieldset>
+
+        <fieldset>
+          <legend>How do you diffuse? (take a break from focusing on work)</legend>
+          <section>
+            <input type="radio" id="ex" name="dif" value="excercise">
+            <label for="r1"><span></span><p>Excercise</p></label>
+          </section>
+          <section>
+            <input type="radio" id="wa" name="dif" value="watch">
+            <label for="r2"><span></span><p>Watch a movie or TV</p></label>
+          </section>
+          <section>
+            <input type="radio" id="dr" name="dif" value="paint">
+            <label for="r3"><span></span><p>Draw or paint</p></label>
+          </section>
+          <section>
+            <input type="radio" id="mu" name="dif" value="music">
+            <label for="r4"><span></span><p>Listen to music</p></label>
+          </section>
+        </fieldset>
+
+        <fieldset>
+          <legend>Did you answer honestly?</legend>
+            <section>
+              <input type="radio" id="no" name="honest" value="no">
+              <label for=""><span></span><p>nah</p></label>
+            </section>
+            <section>
+              <input type="radio" id="yes" name="honest" value="yes">
+              <label for="yes"><span></span><p>sure</p></label>
+            </section>
+        </fieldset>
+
+        <input id="btn" type="submit" name="submit">
+      </form>
+
+      <section id="result">
+        <h1 id="a"></h1>
+      </section>
+    </section>
+
+
+  <script src="js/script.js" type="text/javascript"></script>
+  </body>
+</html>
