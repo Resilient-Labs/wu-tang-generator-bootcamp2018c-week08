@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:5% 10%;
+}
+
+/***************************************
+LAYOUTTTTT
+*****************************************/
+form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+
+fieldset > section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+legend{
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 20px;
+}
+
+h1{
+  font-size: 3em;
+}
+
+#btn{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+#btn:hover{
+  background-color: rgb(226,168,44);
+  color: black;
+}
+/***************************************
+
+*****************************************/
+#a{
+  color:rgb(226,168,44);
+  background-color: black;
+  width:40%;
+  font-size:5em;
+  text-align: center;
+}
+
+/***************************************
+
+*****************************************/
+
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+
+}
