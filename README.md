@@ -1,22 +1,23 @@
-# 🎤 Week08 Bootcamp2018c Project: Wu-Tang Name Generator
+# 🎤 Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+### Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-### How to submit your code for review:
+**LINK TO PROJECT** https://angry-hypatia-b29351.netlify.com
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](screen.png)
+![alt tag](screen1.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML5, CSS3, JavaScript, Object Oriented Programming.
+
+## Lessons Learned:
+Learned more about the form submit request and how to retrieve user data in Javascript from the DOM. Also challenged myself to create logic behind all the input questions.
+
+## Examples:
+
+**Weather API** https://github.com/ericamendez/weather-api-bootcamp2018c-week07
+
+**Card Memory Game** https://github.com/ericamendez/matching-card-bootcamp2018c-week08/tree/answer
+
+**Complex NASA API** https://github.com/ericamendez/complex-nasa-bootcamp2018c-week07

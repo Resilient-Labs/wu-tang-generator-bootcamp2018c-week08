@@ -3,7 +3,7 @@
 }
 
 body {
-  margin:5%;
+  margin:5% 10%;
 }
 
 /***************************************
@@ -49,7 +49,7 @@ h1{
 #a{
   color:rgb(226,168,44);
   background-color: black;
-  width:30%;
+  width:40%;
   font-size:5em;
   text-align: center;
 }
